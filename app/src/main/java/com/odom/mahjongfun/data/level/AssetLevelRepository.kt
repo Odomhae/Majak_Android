@@ -13,11 +13,11 @@ import javax.inject.Singleton
 @Singleton
 class AssetLevelRepository @Inject constructor(
     @ApplicationContext private val context: Context,
-) {
+) : LevelSource {
     private val mutex = Mutex()
     private var cached: LevelCatalog? = null
 
-    suspend fun catalog(): LevelCatalog = mutex.withLock {
+    override suspend fun catalog(): LevelCatalog = mutex.withLock {
         cached ?: withContext(Dispatchers.IO) { load() }.also { cached = it }
     }
 

@@ -75,4 +75,11 @@ class Board private constructor(
         require(a !in removed && b !in removed) { "tile already removed: $a or $b" }
         return Board(tiles, removed + a + b, index)
     }
+
+    /** [remove]로 치운 두 패를 되돌린 새 판. 되돌리기에서 쓴다. */
+    fun restore(a: Int, b: Int): Board {
+        require(a != b) { "cannot restore the same tile twice: $a" }
+        require(a in removed && b in removed) { "tiles were not removed: $a or $b" }
+        return Board(tiles, removed - a - b, index)
+    }
 }

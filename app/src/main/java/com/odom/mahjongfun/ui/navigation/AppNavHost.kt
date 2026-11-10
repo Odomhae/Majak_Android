@@ -41,7 +41,6 @@ fun AppNavHost(modifier: Modifier = Modifier) {
         composable(Routes.GAME, arguments = stageArg) { entry ->
             val stage = entry.arguments?.getInt(Routes.ARG_STAGE) ?: 1
             GameScreen(
-                stage = stage,
                 onClear = { nav.navigate(Routes.result(stage)) { popUpTo(Routes.HOME) } },
                 onBack = { nav.popBackStack() },
             )

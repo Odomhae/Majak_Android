@@ -9,7 +9,17 @@
     <string name="level_select_title">Select stage</string>
     <string name="stage_format">Stage %1$d</string>
 
-    <string name="game_clear_debug">Clear (temporary)</string>
+    <string name="game_remaining">Tiles left: %1$d</string>
+    <string name="game_pause">Pause</string>
+    <string name="game_paused_title">Paused</string>
+    <string name="game_resume">Resume</string>
+    <string name="game_restart">Restart</string>
+    <string name="game_exit">Exit</string>
+    <string name="game_undo">Undo</string>
+    <string name="game_stuck_title">No more moves</string>
+    <string name="game_stuck_message">There are no matching tiles left. Undo a move or restart the stage.</string>
+    <string name="game_load_failed">Could not create the board</string>
+    <string name="game_retry">Try again</string>
 
     <string name="result_title">Stage %1$d cleared</string>
     <string name="result_next">Next stage</string>
