@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="60dp" android:height="80dp"
+    android:viewportWidth="120" android:viewportHeight="160">
+    <path android:fillColor="#1E7A4F" android:fillType="evenOdd" android:pathData="M22,42A16,16 0 1 1 54,42A16,16 0 1 1 22,42ZM25.2,42A12.8,12.8 0 1 0 50.8,42A12.8,12.8 0 1 0 25.2,42Z"/>
+    <path android:fillColor="#1E7A4F" android:pathData="M28.72,42A9.28,9.28 0 1 1 47.28,42A9.28,9.28 0 1 1 28.72,42Z"/>
+    <path android:fillColor="#1E7A4F" android:fillType="evenOdd" android:pathData="M66,42A16,16 0 1 1 98,42A16,16 0 1 1 66,42ZM69.2,42A12.8,12.8 0 1 0 94.8,42A12.8,12.8 0 1 0 69.2,42Z"/>
+    <path android:fillColor="#1E7A4F" android:pathData="M72.72,42A9.28,9.28 0 1 1 91.28,42A9.28,9.28 0 1 1 72.72,42Z"/>
+    <path android:fillColor="#C0392B" android:fillType="evenOdd" android:pathData="M22,92A16,16 0 1 1 54,92A16,16 0 1 1 22,92ZM25.2,92A12.8,12.8 0 1 0 50.8,92A12.8,12.8 0 1 0 25.2,92Z"/>
+    <path android:fillColor="#C0392B" android:pathData="M28.72,92A9.28,9.28 0 1 1 47.28,92A9.28,9.28 0 1 1 28.72,92Z"/>
+    <path android:fillColor="#C0392B" android:fillType="evenOdd" android:pathData="M66,92A16,16 0 1 1 98,92A16,16 0 1 1 66,92ZM69.2,92A12.8,12.8 0 1 0 94.8,92A12.8,12.8 0 1 0 69.2,92Z"/>
+    <path android:fillColor="#C0392B" android:pathData="M72.72,92A9.28,9.28 0 1 1 91.28,92A9.28,9.28 0 1 1 72.72,92Z"/>
+    <path android:fillColor="#C0392B" android:fillType="evenOdd" android:pathData="M22,130A16,16 0 1 1 54,130A16,16 0 1 1 22,130ZM25.2,130A12.8,12.8 0 1 0 50.8,130A12.8,12.8 0 1 0 25.2,130Z"/>
+    <path android:fillColor="#C0392B" android:pathData="M28.72,130A9.28,9.28 0 1 1 47.28,130A9.28,9.28 0 1 1 28.72,130Z"/>
+    <path android:fillColor="#C0392B" android:fillType="evenOdd" android:pathData="M66,130A16,16 0 1 1 98,130A16,16 0 1 1 66,130ZM69.2,130A12.8,12.8 0 1 0 94.8,130A12.8,12.8 0 1 0 69.2,130Z"/>
+    <path android:fillColor="#C0392B" android:pathData="M72.72,130A9.28,9.28 0 1 1 91.28,130A9.28,9.28 0 1 1 72.72,130Z"/>
+</vector>

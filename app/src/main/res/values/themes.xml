@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.MahjongFun" parent="android:Theme.Material.NoActionBar">
+        <!-- Compose가 그리기 전 흰 화면이 번쩍이지 않도록 펠트 색을 깔아 둔다. -->
+        <item name="android:windowBackground">@color/bg_felt_bottom</item>
+    </style>
+</resources>
