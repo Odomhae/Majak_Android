@@ -5,7 +5,8 @@ CLAUDE.md에 없는 결정, 또는 명세와 다르게 간 결정을 기록한�
 ## 마일스톤 1
 
 - **minSdk 26 유지**: 명세는 24지만 프로젝트 생성 시점부터 26이었고 Android 8 미만 점유율이 극소수라 유지한다.
-- **AGP 9.2.0-alpha08 → 9.5.1(안정), Kotlin 2.2.10 → 2.4.21**: Hilt 2.60.1/KSP가 최신 Kotlin 메타데이터를 요구하고, 알파 AGP를 피하기 위해 올렸다. 버전은 `gradle/libs.versions.toml`에만 기록.
+- **AGP는 9.2.0-alpha08 유지, Gradle 9.4.1**: 처음에 AGP 9.5.1(Gradle 9.6.0)로 올렸으나 설치된 Android Studio가 "지원 최신 AGP는 9.2.0-alpha08"이라며 프로젝트를 거부해 되돌렸다. Android Studio를 업데이트하면 다시 올릴 수 있다(AGP 9.5.1은 Gradle 9.6.0 필요).
+- **Kotlin 2.2.10 → 2.4.21, compileSdk 37**: Hilt 2.60.1/KSP와 최신 Compose BOM이 요구해서 올렸고, AGP 9.2.0-alpha08에서도 빌드된다. 버전은 `gradle/libs.versions.toml`에만 기록.
 - **Hilt는 KSP로 처리**(kapt 미사용). AGP 9 내장 Kotlin과 함께 쓰기 위함.
 - **패 에셋 파일명 규칙**(`DESIGN_REQUEST.md` 부재): 현재 `res/drawable/tile_*` 이름을 규칙으로 확정한다.
   `char_1..9`, `dot_1..9`, `bamboo_1..9`, `wind_e|s|w|n`, `dragon_white|green|red`, `flower_1..4`, `season_1..4`, `back`.
